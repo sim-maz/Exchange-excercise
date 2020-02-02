@@ -7,7 +7,9 @@ namespace Exchange.Services
 {
     public class CurrencyService : ICurrencyService
     {
-        public CurrencyService(IServiceProvider services) { }
+        public CurrencyService(IServiceProvider services)
+        {
+        }
 
         public double GetCurrencyRate(string currencyIsoPair)
         {

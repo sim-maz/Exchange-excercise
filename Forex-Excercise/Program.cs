@@ -14,7 +14,7 @@ namespace Exchange
 
             var services = new ServiceCollection()
                 .AddScoped<ICurrencyService, CurrencyService>();
-            
+
             var serviceProvider = services.BuildServiceProvider();
 
             var result = ConvertValue(args, serviceProvider);

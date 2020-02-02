@@ -19,7 +19,6 @@ namespace Exchange.tests.Services
             _currencyService = new CurrencyService(_serviceProvider.Object);
         }
 
-
         [Theory]
         [InlineData("EUR/DKK", 7.4394)]
         [InlineData("USD/DKK", 6.6311)]
